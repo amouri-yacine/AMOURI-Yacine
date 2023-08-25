@@ -1,0 +1,80 @@
+
+.lien{
+    display: flex;
+     align-items: normal ;
+     
+}
+.faceb{
+    margin-left: 0%;
+    width: 30%;
+ display: block;
+}
+.insta{
+    margin-left: 25%;
+    width: 30%;
+    display: block;
+}
+.edin{
+    margin-left: 50%;
+    width: 30%;
+    display: block;
+
+}
+.phon{
+    margin-left: 75%;
+    width: 30%;
+    display: block;
+}
+.tit{
+    font-size: 30px;
+    display: inline;
+}
+
+h1{
+    display: flex;
+    color:goldenrod ;
+    margin: 4%;
+}
+.me{
+    display: flex;
+  margin-block-end: 2cm;
+    margin-block-start: 2%;
+    width: 4cm;
+    height: 4cm;
+    margin-left: 40%;
+    filter: drop-shadow( 0 0 3px goldenrod);
+    
+    
+}
+.cv{
+    display: inline-block
+    display: inline;
+ 
+    font-size: 20px;
+    margin: 5% ;
+    color: goldenrod;
+    
+}
+.name{
+    margin-left: 4%;
+    color: goldenrod;
+    font-size: 40px;
+    letter-spacing: 10px ;
+    animation: flash 3s linear infinite;
+
+}
+@keyframes flash{
+    0%{
+        color: gold;
+        text-shadow: 0 0 7px gold;
+    }
+    90%{
+        color: rgb(0, 0, 0);
+        text-shadow: none;
+
+    }
+    100%{
+        color: gold;
+        text-shadow: 0 0 7px gold;
+    }
+}
